@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+  </head>
+
+
+
+
+
+    <div>
+
+        <p class="font-sofachrome-italic">Baum AI</p>
+    </div>
+
+
+<div class="serch">
+
+</div>
+
+
+
+<div>
+  <div class="box1">
+    
+    <div class="box3">
+      <mat-form-field>
+        <input class="serch" matInput type="text" [matAutocomplete]="auto" placeholder="search" />
+        <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let item of options" [value]="item.title">
+                {{item.title}}
+            </mat-option>
+        </mat-autocomplete>
+    </mat-form-field>
+
+
+     </div>
+     <div class="box2">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</html>

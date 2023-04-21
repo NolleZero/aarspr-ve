@@ -1,0 +1,7 @@
+.tabs
+{
+  position: absolute;
+  z-index: 101;
+  margin-left: 750px;
+  margin-top: 400px;
+}
